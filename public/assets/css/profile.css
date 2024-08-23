@@ -1,0 +1,150 @@
+.my_ava img {
+    height: 141.85px;
+    width: 141.85px;
+
+}
+.my_ava form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.profile__blocks {
+    display: flex;
+    width: 100%;
+    min-height: 340px;
+    gap: 20px;
+    position: relative;
+    justify-content: space-between;
+    align-content: center;
+    align-items: stretch;
+}
+.profile__body {
+    padding-top: 20px;
+}
+.profile__block {
+    width: 33%;
+    padding: 20px 27px;
+    display: flex;
+    border-radius: var(--radius);
+    position: relative;
+    background: var(
+    --fff);
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.profile__block .dropdown {
+    position: absolute;
+    top: 7px;
+    right: 13px;
+}
+.my_ava img {
+    border-radius: 50%;
+}
+.profile__blocks .profile__block:nth-child(1) {
+
+width: 27%;
+
+height: 100%;
+}
+
+.profile__blocks .profile__block:nth-child(2) {
+
+width: 35%;
+}
+
+.profile__blocks .profile__block:nth-child(3) {
+
+width: 45%;
+}
+.my_ava {
+    margin-bottom: 10px;
+}
+.title h1 {
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.profile__block h2 {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.profile__block p {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+}
+.Ava_info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.block__Ava_info {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Ava_info p {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+}
+
+.Ava_info span {
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.h_notes {
+    text-align: left;
+    width: 100%;
+    font-family: Gilroy;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.my_ava h1 {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.my_ava {}
+
+.profile__block h1 {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+.notes {
+    width: 100%;
+    height: 100%;
+}

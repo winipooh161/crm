@@ -1,0 +1,170 @@
+.flex__body {
+    display: flex;
+    gap: var(--p20);
+}
+
+.body__center {
+    width: 87%;
+    height: 100%;
+}
+header .container {
+    max-width: 2200px;
+}
+
+
+select {
+    border-radius: 9px;
+    min-height: 30px;
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 300px;
+    border: none;
+    background: var(--fff);
+}
+form#searchForm .input-group input {
+    height: 100%;
+    border: none;
+    height: 40px;
+    padding: 0 0 0 50px;
+    border-radius: 10px;
+}
+
+form#searchForm .input-group {
+    display: flex; 
+    gap: var(--p20);
+    align-content: center;
+    align-items: center;
+}
+
+form#searchForm .input-group input {
+    margin: 0;
+}
+input {
+    border-radius: 9px;
+    min-height: 30px;
+    box-sizing: border-box;
+    min-width: 200px;
+    padding: 0 0 0 10px;
+    max-width: 300px;
+    border: none;
+    background: var(--fff);
+}
+form#searchForm .input-group button {
+    background: none;
+    max-width: 50px;
+    min-width: 50px;
+    position: absolute;
+}
+
+/* ============================================================= dropdown ====================================================================*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-toggle svg {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+    transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-toggle svg {
+    transform: rotate(180deg);
+}
+
+/* Стили для выпадающего меню */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    background-color: var(--fff);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    /* border-bottom: 1px solid #444; */
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu li a {
+    color: var(--text);
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #555;
+}
+
+/* Стили для бургер-меню */
+.burger {
+    display: none; /* Скрываем бургер по умолчанию */
+}
+
+.burger input[type="checkbox"] {
+    display: none;
+}
+
+.burger .links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    width: 250px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+.burger .links li {
+    border-bottom: 1px solid #444;
+}
+
+.burger .links li:last-child {
+    border-bottom: none;
+}
+
+.burger .links a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.burger .links a:hover {
+    background-color: #555;
+}
+

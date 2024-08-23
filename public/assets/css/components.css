@@ -1,0 +1,320 @@
+.project-card__people__block img {
+    width: 40px;
+    height: 40px;
+}
+
+.project-card__people__block {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+/*====================================================================================*/
+.body__filter__projects {
+    padding-top: 30px;
+    display: flex;
+    align-content: center;
+    gap: var(--p20);
+    padding-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.project___h1 {
+    /* padding-top: 30px; */
+    font-size: 36px;
+}
+
+.body__filter__projects__container {
+    display: flex;
+    gap: var(--g20);
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.blocks__view {
+    display: flex;
+    gap: 3px;
+}
+
+.project-card__people__block img {
+    width: 40px;
+    height: 40px;
+}
+
+.project-card__people__block {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.blocks__view button:nth-child(1) {
+    border-radius: 10px 3px 3px 10px;
+}
+
+.blocks__view button:nth-child(2) {
+    border-radius: 3px 10px 10px 3px;
+}
+
+.blocks__view button {
+    max-width: 64px;
+    display: flex;
+    min-width: 64px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.user__lider__project {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+/*====================================================================================*/
+.btn-primary {
+    background: rgba(38, 98, 243, 1);
+    color: #fff;
+    padding: 10px 20px;
+    height: 40px;
+    min-width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.projects__lists a {
+    /* width: 33%; */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+button {
+    border-radius: 9px;
+    min-height: 30px;
+    box-sizing: border-box;
+    min-width: 100px;
+    max-width: 300px;
+    border: none;
+    background: var(--fff);
+}
+
+/*====================================================================================*/
+.projects__block__lists {
+    flex-direction: column;
+    gap: var(--g20);
+}
+
+.project-block {
+    display: flex;
+    border-radius: var(--radius);
+    position: relative;
+    text-align: center;
+    gap: 15px;
+    background: var(--fff);
+    padding: 20px;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects__lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__block__lists .project-card__menu {
+    right: 40px;
+}
+
+.projects__block__lists .project-card__menu .dropdown-menu {
+    display: none;
+    position: absolute;
+    right: -6px;
+}
+
+/*==================================== CARDS  project-card ===================================================*/
+.project-card__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-card__info p {
+    display: flex;
+    flex-direction: column;
+    color: #3D3D4F;
+    text-align: left;
+    font-weight: 600;
+    justify-content: flex-start;
+}
+
+.project-card__info p strong {
+    color: var(--blackText);
+    font-weight: 400;
+}
+
+.project-card__people {
+    display: flex;
+    flex-direction: column;
+    background: var(--f3f);
+    min-height: 80px;
+    padding: 10px;
+    border-radius: var(--radius);
+    justify-content: space-between;
+    width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-card__menu {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.project-card__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-card__people__block {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.project-card__people__block p {
+    color: var(--blackText);
+}
+
+.project-card__info {}
+
+.project-card__title p {
+    color: var(--ser);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.project-card__info p span::after {
+    content: " ₽";
+}
+
+.project-card__title h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.block____user_info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.block____user_info {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    align-content: center;
+}
+
+.project-card {
+    padding: 23px 16px;
+    display: flex;
+    width: 40%;
+    border-radius: var(--radius);
+    position: relative;
+    text-align: center;
+    background: var(--fff);
+    gap: var(--g10);
+    min-height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/*=======================================================================================*/
+.projectshow__body__blocks {
+    width: 50%;
+    display: flex;
+    max-height: 80px;
+    padding: 20px 23px;
+    background: var(--fff);
+    border-radius: var(--radius);
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectshow__body__logo .user__lider__project img {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    top: -18px;
+}
+
+a {}
+
+.projectshow__body__status a {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.projectshow__body__liders .user__lider__project img{
+
+width: auto;
+
+height: 40px;
+}
+.projectshow__body .projectshow__body__blocks:nth-child(1) {
+    width: 46%;
+}
+.projectshow__body .projectshow__body__blocks:nth-child(2) {
+    width: 27%;
+}
+.projectshow__body .projectshow__body__blocks:nth-child(3) {
+    width: 25%;
+}
+.user__lider__project__namestatus p:nth-child(1) {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    color: rgba(142, 147, 151, 1);
+}
+/*====================================================================================*/
+/*====================================================================================*/
+/*====================================================================================*/
+/*====================================================================================*/
+/*====================================================================================*/
+/*====================================================================================*/
+/*====================================================================================*/
+/*====================================================================================*/
+/*====================================================================================*/
+/*====================================================================================*/
